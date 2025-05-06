@@ -17,7 +17,7 @@ export default function Navbar() {
         </div>
 
         <div className="flex items-center gap-3">
-          <a href="#" className="text-sm/8 font-semibold px-2 hover:text-[#2fe6de] transition">Sign In</a>
+          <a href="#" className="text-sm/8 font-semibold px-2 hover:text-[#2fe6ddb3] transition">Sign In</a>
           <Button>Sign Up</Button>
         </div>
       </div>
