@@ -6,7 +6,7 @@ export default function Footer() {
   const footerSections = [
     {
       title: "Products",
-      links: ['Dashboard', 'Compare', 'Execute', 'Analytics', 'Reports']
+      links: ['Record', 'Livestream']
     },
     {
       title: "Resources",

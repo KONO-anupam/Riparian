@@ -10,10 +10,10 @@ export default function Navbar() {
         </div>
 
         <div>
-          <a href="#" className="text-sm/8 font-semibold px-2 hover:text-[#2fe6de] transition">DASHBOARD</a>
-          <a href="#" className="text-sm/8 font-semibold px-2 hover:text-[#2fe6de] transition">COMPARE</a>
-          <a href="#" className="text-sm/8 font-semibold px-2 hover:text-[#2fe6de] transition">EXECUTE</a>
-          <a href="#" className="text-sm/8 font-semibold px-2 hover:text-[#2fe6de] transition">PROFILE</a>
+          <a href="#" className="text-sm/8 font-semibold px-3 hover:text-[#2fe6de] transition">RECORD</a>
+          <a href="#" className="text-sm/8 font-semibold px-3 hover:text-[#2fe6de] transition">LIVESTREAM</a>
+          <a href="#" className="text-sm/8 font-semibold px-3 hover:text-[#2fe6de] transition">FOR BUISNESS</a>
+          <a href="#" className="text-sm/8 font-semibold px-3 hover:text-[#2fe6de] transition">PRICING</a>
         </div>
 
         <div className="flex items-center gap-3">

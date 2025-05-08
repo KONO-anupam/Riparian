@@ -1,5 +1,13 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+build/
+
 # Logs
-logs
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -7,18 +15,33 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Local env files
+.env
+.env.*.local
 *.local
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# OS-specific files
 .DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+!.vscode/extensions.json
+.idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# Testing
+coverage/
+*.lcov
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional: lockfiles (if you're only using one lockfile manager)
+# yarn.lock
+# package-lock.json
+# pnpm-lock.yaml
